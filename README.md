@@ -13,6 +13,6 @@ EXEMPLE POUR CHROME
 3. Ajouter le chemin /bin/<webdriver> à vos chemins de fichiés executables:
    export PATH=$PATH:/opt/WebDriver/bin >> ~/.profile
 
-4. Taper maintenant "webdriver dans votre terminal", la sortie suivante devrait s'afficher:
+4. Taper maintenant "chromedriver" dans votre terminal", la sortie suivante devrait s'afficher:
    Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 9515
    Only local connections are allowed.

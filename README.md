@@ -11,7 +11,12 @@ EXEMPLE POUR CHROME
 2. Placez le webdriver fraichement téléchargé dans votre dossier /bin
 
 3. Ajouter le chemin /bin/<webdriver> à vos chemins de fichiés executables:
+   
+   SUR MAC ET LINUX UTILISER CETTE COMMANDE:
    export PATH=$PATH:/opt/WebDriver/bin >> ~/.profile
+   
+   SUR WINDOWS UTILISER CETTE COMMANDE:
+   setx /m path "%path%;C:\WebDriver\bin\"
 
 4. Taper maintenant "chromedriver" dans votre terminal", la sortie suivante devrait s'afficher:
    Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 9515
